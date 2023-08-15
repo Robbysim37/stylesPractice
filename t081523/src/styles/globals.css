@@ -1,0 +1,155 @@
+@media only screen and (max-width:600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+  } 
+
+  header {
+    height: 7%;
+    flex:1 0 100%;
+    background-color: black;
+  }
+
+  nav {
+    height: 7%;
+    flex:1 0 100%;
+    background-color: salmon;
+  }
+
+  .hero {
+    height: 20%;
+    flex:1 0 100%;
+    background-color: aqua;
+  }
+
+  main {
+    height: 20%;
+    flex:1 0 100%;
+    background-color: darkblue;
+  }
+
+  .banner {
+    height: 17%;
+    flex:1 0 100%;
+    background-color: yellow;
+  }
+
+  .extra {
+    height: 17%;
+    flex:1 0 100%;
+    background-color: mediumspringgreen;
+  };
+
+  .image {
+    height: 12%;
+    flex:1 0 100%;
+    background-color: aquamarine;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:1280px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+  }
+
+  header {
+    height: 10%;
+    width:100%;
+    order:0;
+    background-color: black;
+  }
+
+  nav {
+    height: 80%;
+    width:20%;
+    order:1;
+    background-color: salmon;
+  }
+
+  .hero {
+    height: 30%;
+    width:100%;
+    order:0;
+    background-color: aqua;
+  }
+
+  main {
+    height: 30%;
+    width:80%;
+    order:1;
+    background-color: darkblue;
+  }
+
+  .banner {
+    height: 20%;
+    width:80%;
+    order:1;
+    background-color: yellow;
+  }
+
+  .extra {
+    height: 20%;
+    width:60%;
+    order:1;
+    background-color: mediumspringgreen;
+  };
+
+  .image {
+    height: 20%;
+    width:20%;
+    order:1;
+    background-color: aquamarine;
+  }
+}
+
+@media only screen and (min-width:1281px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+  }
+
+  nav {
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+  }
+
+  .hero {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+  }
+
+  main {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+  }
+
+  .banner {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+  }
+
+  .extra {
+    height: 100px;
+    width: 100px;
+    background-color: mediumspringgreen;
+  };
+
+  .image {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+  }
+}
