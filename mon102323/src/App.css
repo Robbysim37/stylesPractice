@@ -1,0 +1,40 @@
+.app{
+  background-color: darkslategray;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid{
+  height: 90vh;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2%;
+  row-gap: 7%;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+}
+.orange{
+  background-color: orange;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+.lightGreen{
+  background-color: lightgreen;
+}
+
+.aqua{
+  background-color: aqua;
+}
