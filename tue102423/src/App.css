@@ -1,0 +1,39 @@
+.app{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategrey;}
+
+main{
+  background-color: red;
+  grid-area: main;
+}
+
+aside{
+  background-color: orange;
+  grid-area: aside;
+}
+
+.sectionOne{
+  background-color: green;
+  grid-area: one;
+}
+
+.sectionTwo{ 
+  background-color: lightgreen;
+  grid-area: two;
+}
+
+.grid-container{
+  height: 90vh;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2%;
+  row-gap: 7%;
+  grid-template-areas: 
+  "main main aside"
+  "one two aside";
+}
