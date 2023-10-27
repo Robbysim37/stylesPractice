@@ -5,10 +5,10 @@
 
 .row{
   display: inline-flex;
-  margin-top: -64px;
-  margin-left: -100px;
+  margin-top: -3.2vw;
+  margin-left: -5vw;
 }
 
 .row:nth-child(even){
-  margin-left: 10px;
+  margin-left: .5vw;
 }
