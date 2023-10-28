@@ -19,33 +19,15 @@ function App() {
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className='row'>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
+        <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
@@ -53,17 +35,52 @@ function App() {
       <div className='row'>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
+      <div className='row'>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon name="clear"></Hexagon>
         <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon ></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
+      <div className='row'>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon name="clear"></Hexagon>
         <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon name="clear"></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
