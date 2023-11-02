@@ -14,77 +14,35 @@ import Hexagon from './shapes/Hexagon';
 function App() {
   return (
     <div className="App">
-      <div className='row'>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className='row'>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className='row'>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon name="clear"></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className='row'>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
+      <div className='grid-container'>
+        <div className='row'>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        </div>
+        <div className='row'>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        </div>   
+        <div className='row'>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        </div>   
+        <div className='row'>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        <Hexagon/>
+        </div>    
       </div>
     </div>
   );
