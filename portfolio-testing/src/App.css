@@ -1,4 +1,7 @@
-.App{
+
+/* HEXAGON PAGE
+
+/* .App{
   background-color: #fbb12f;
   width: 100%;
 }
@@ -13,21 +16,11 @@
   margin-top: -3.2vw;
   margin-left: -5vw;
   z-index: 1;
-}
+} */
 
-/* .grid-container>div:nth-child(10n + 1),
-.grid-container>div:nth-child(10n + 2),
-.grid-container>div:nth-child(10n + 3),
-.grid-container>div:nth-child(10n + 4),
-.grid-container>div:nth-child(10n + 5){
-  margin-left: .5vw;
-}
+/* SVG PAGE */
 
-.text-test{
-  width: 100%;
+.App {
   text-align: center;
-  z-index: 2;
-  font-size: 24px;
-  color: red;
-  position: absolute;
+  background-color: #002233;
 }
